@@ -6,4 +6,4 @@ text here <br>
 
 ## subheader
 
-![small mult](https://user-images.githubusercontent.com/96669714/208324458-7f037c27-21ae-4554-b263-e2d3e96d27ae.png)
+![sm2](https://user-images.githubusercontent.com/96669714/208324555-b29d7bf6-1e2c-42dc-b723-6533f439cae0.png)
