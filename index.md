@@ -1,5 +1,7 @@
 # Warehouse and Distribution Center Development in Franklin, New Jersey
 
+#### Elana Simon | Command-Line GIS, Fall 2022
+
 ## Explore Franklin's Current and Proposed Warehouses/Distribution Centers
 <br>
 Toggle the layers to explore the proximity of current and proposed warehouses to residential, commercial, farmland, and other land uses. Parcels within 5,000 feet of an existing or proposed warehouse are shown on the map.
