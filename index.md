@@ -27,6 +27,8 @@ Franklin's current and proposed warehouses (illustrated in red below) are locate
 
 Bloustein Local Government Research Center. (2022). “N.J. MOD IV Historical Database.” Last Updated 10/28/2022. Retrieved from: https://modiv.rutgers.edu/
 
+Microsoft. (2018). “U.S. Building Footprints.” Retrieved from: https://github.com/Microsoft/USBuildingFootprints
+
 NJ Office of GIS. (2022, November 28). “Parcels and MOD-IV of Middlesex County, NJ (fgdb download)” Last Updated 12/16/2022. Retrieved from: https://njogis-newjersey.opendata.arcgis.com/documents/cae0c9f99c28401cbb7b9c4364648ce9/about 
 
 NJ Office of GIS. (2022, November 28). “Parcels and MOD-IV of Somerset County, NJ (fgdb download)” Last Updated 12/16/2022. Retrieved from: https://www.arcgis.com/home/item.html?id=333f558cfa6f4d3dbe14e4acf9dc633d 
