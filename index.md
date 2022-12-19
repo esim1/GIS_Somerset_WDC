@@ -19,7 +19,7 @@ About 60 percent of proposed warehouses in Franklin Township would require a non
 Franklin's current and proposed warehouses (illustrated in red below) are located in block groups with lower income levels and lower population density. The densest population center is in the neighboring municipalities of South Bound Brook and Manville.
 
 ![sm2](https://user-images.githubusercontent.com/96669714/208324555-b29d7bf6-1e2c-42dc-b723-6533f439cae0.png)
-<i>Source: U.S. Census Bureau, American Community Survey 5-Year Estimates.</i>
+<br><br><i>Source: U.S. Census Bureau, American Community Survey 5-Year Estimates.</i>
 <br><br>
 ## Final Project Response
 
