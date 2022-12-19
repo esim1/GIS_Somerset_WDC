@@ -1,4 +1,4 @@
-# Sample header
+# Warehouse and Distribution Center Development in Franklin, New Jersey
 
 ## Explore Franklin's Current and Proposed Warehouses/Distribution Centers
 <br>
@@ -16,7 +16,7 @@ About 60 percent of proposed warehouses in Franklin Township would require a non
 
 ## The Social Landscape of Industrial Redevelopment
 
-Franklin's current and proposed warehouses (illustrated in red below) are located in block groups with lower income levels and lower population density. The densest population center is in the neighboring municipalities of South Bound Brook and Manville.
+Franklin's current and proposed warehouses (illustrated in red below) are located in block groups with lower income levels and lower population density. The densest population centers are in the neighboring municipalities of South Bound Brook and Manville.
 
 ![sm2](https://user-images.githubusercontent.com/96669714/208324555-b29d7bf6-1e2c-42dc-b723-6533f439cae0.png)
 <br><i>U.S. Census Bureau, American Community Survey (2015-2019) 5-Year Estimates.</i>
