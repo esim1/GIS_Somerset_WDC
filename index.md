@@ -10,12 +10,11 @@ Toggle the layers to explore the proximity of current and proposed warehouses to
 
 ![conversion final](https://user-images.githubusercontent.com/96669714/208326131-ea3eabc0-bbfa-4e15-b0c4-66f84d73c59a.png)
 
+![Screen Shot 2022-12-18 at 7 42 13 PM](https://user-images.githubusercontent.com/96669714/208328283-ec75389e-ab92-4ca3-b443-47108458c1f3.png)
+
 ## The Social Landscape of Industrial Redevelopment
 
 ![sm2](https://user-images.githubusercontent.com/96669714/208324555-b29d7bf6-1e2c-42dc-b723-6533f439cae0.png)
-
-![Screen Shot 2022-12-18 at 7 42 13 PM](https://user-images.githubusercontent.com/96669714/208328283-ec75389e-ab92-4ca3-b443-47108458c1f3.png)
-
 
 ## References
 
