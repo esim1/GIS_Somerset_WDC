@@ -11,17 +11,32 @@ Toggle the layers to explore the proximity of current and proposed warehouses to
 About 60 percent of proposed warehouses in Franklin Township would require a non-industrial land use conversion. Proposed warehouse site plans would redevelop 71.9 acres of office buildings, 49.82 acres of solar panel fields, and 19.12 acres of greenfield.
 
 ![conversion final](https://user-images.githubusercontent.com/96669714/208326131-ea3eabc0-bbfa-4e15-b0c4-66f84d73c59a.png)
-
+<br><i>NJ Office of GIS (2022), Franklin Township (2022)</i>
+<br>
 <img width="433" alt="Screen Shot 2022-12-18 at 7 51 40 PM" src="https://user-images.githubusercontent.com/96669714/208328755-c01a853a-3f75-4f24-9626-224f83ab8a3b.png">
-
+<br><br>
 ## The Social Landscape of Industrial Redevelopment
 
 Franklin's current and proposed warehouses (illustrated in red below) are located in block groups with lower income levels and lower population density. The densest population centers are in the neighboring municipalities of South Bound Brook and Manville.
 
 ![sm2](https://user-images.githubusercontent.com/96669714/208324555-b29d7bf6-1e2c-42dc-b723-6533f439cae0.png)
-<br><i>U.S. Census Bureau, American Community Survey (2015-2019) 5-Year Estimates.</i>
+<br><i>American Community Survey (2015-2019) 5-Year Estimates; 2019 TIGER/Line Shapefiles</i>
 <br><br>
 ## Final Project Response
+
+I created a parcel-level dataset of current and proposed warehouses and distribution centers in Franklin, Somerset County, New Jersey as of December 2022 by gathering data from property tax records and satellite imagery. I used property tax records from the Bloustein Local Government Research Center and the NJ Office of GIS. Property tax records from Somerset County and Middlesex County were last updated December 16, 2022. Property tax records and digital parcel maps were prepared by Somerset County, Middlesex County, and the NJ Treasury Department. Parcel records from the Bloustein Local Government Research Center were compiled using historic records from the NJ Treasury Department. I gathered data about proposed warehouses from site plans posted on Franklin Township's webpage on November 14, 2022. I created a table of proposed warehouses from PDF records and joined the data frame to property tax records.
+
+Property tax records were available in CSV format while the digital parcel map was available in a shapefile format. I used the union geoprocessing tool to combine parcels from Middlesex and Franklin Township. Then, I created a 5,000 foot buffer around current and existing warehouses that I used to clip the combined parcel map. After creating the combined parcel map, I merged the shapefile with the CSV files of property tax records to subset the digital parcel file by property class (residential, commercial, farmland, and schools). I also created a 500 foot buffer for current and proposed warehouses to create layers for the interactive map where users can explore how warehouse uses overlap with other land uses.
+
+I referred to Google Maps and Planet Labs for satellite data of Franklin Township. I referenced satellite data from November 2022. Satellite imagery from Planet Labs is updated daily. Google Maps satellite imagery does not disclose the time period that images were taken. Google Street View images ranged from 2019 to 2022 depending on the location.
+
+Tax records did not reliably categorize building uses for commercial and industrial parcels. I created a workflow to validate and re-categorize warehouse uses by comparing property tax records with satellite imagery and Google Maps. I reclassified 22 parcels that were not categorized as a warehouse in property tax records based on the presence of truck bays in satellite imagery and business listings on Google Maps. Additionally, I removed 9 parcels classified as warehouses because they had a very small lot size (below 20,000 sq. ft.) or Google Maps indicated that the property is not currently occupied by a distributor. Additionally, data quality errors in property tax records prevented many property tax records from merging to the digital parcel map. I was able to re-match all warehouses by merging on the address field or updated parcel ID.
+
+Information about building area, not available in property tax records, was gathered from Microsoft’s Building Footprint dataset. Building footprints were generated from satellite imagery taken between July 2019 and October 2020, which indicates that building footprints for warehouses built since October 2020 may be inaccurate. Building footprints are missing for five current warehouses. Building footprints were available in GeoJSON (polygon) format for the United States. I clipped the national spatial dataset to Franklin Township using municipal boundaries from the Census Bureau.
+
+I also gathered digital maps of municipal boundaries and block groups from the Census Bureau in shapefile format. After using the union command to combine block group and county subdivision maps for Somerset and Middlesex County. Then, I subset the county subdivision map to include municipalities neighboring Franklin Township’s industrial districts. I used the clip geoprocessing command to create a polygon of block groups that encompassed municipalities neighboring Franklin Township that spanned Somerset and Middlesex counties.
+
+Data for the choropleth maps of population density and median household income were gathered from the American Community Survey (2015-2019) 5-Year Estimates. I gathered data using the Census API tool and restructured the data from a JSON to a data frame. I gathered data at the block group level and joined to the map of Franklin and surrounding municipalities.
 
 ## References
 
