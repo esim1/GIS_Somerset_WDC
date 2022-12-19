@@ -14,6 +14,9 @@ Toggle the layers to explore the proximity of current and proposed warehouses to
 
 ![sm2](https://user-images.githubusercontent.com/96669714/208324555-b29d7bf6-1e2c-42dc-b723-6533f439cae0.png)
 
+![Screen Shot 2022-12-18 at 7 42 13 PM](https://user-images.githubusercontent.com/96669714/208328283-ec75389e-ab92-4ca3-b443-47108458c1f3.png)
+
+
 ## References
 
 Bloustein Local Government Research Center. (2022). “N.J. MOD IV Historical Database.” Last Updated 10/28/2022. Retrieved from: https://modiv.rutgers.edu/
