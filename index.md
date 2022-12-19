@@ -7,6 +7,7 @@ Toggle the layers to explore the proximity of current and proposed warehouses to
 <iframe src="651_fall22_final_v3.html" height="500" width="1000"></iframe>
 <br><i>NJ Office of GIS (2022), Franklin Township (2022)</i>
 <br><br>
+
 ## Proposed Warehouses
 
 About 60 percent of proposed warehouses in Franklin Township would require a non-industrial land use conversion. Proposed warehouse site plans would redevelop 71.9 acres of office buildings, 49.82 acres of solar panel fields, and 19.12 acres of greenfield.
