@@ -8,9 +8,11 @@ Toggle the layers to explore the proximity of current and proposed warehouses to
 
 ## Proposed Warehouses
 
+About 60 percent of proposed warehouses in Franklin Township would require a non-industrial land use conversion. The most common type of proposed land use conversion is office redevelopment (28.6 percent). 
+
 ![conversion final](https://user-images.githubusercontent.com/96669714/208326131-ea3eabc0-bbfa-4e15-b0c4-66f84d73c59a.png)
 
-![Screen Shot 2022-12-18 at 7 42 13 PM](https://user-images.githubusercontent.com/96669714/208328283-ec75389e-ab92-4ca3-b443-47108458c1f3.png)
+<img width="433" alt="Screen Shot 2022-12-18 at 7 51 40 PM" src="https://user-images.githubusercontent.com/96669714/208328755-c01a853a-3f75-4f24-9626-224f83ab8a3b.png">
 
 ## The Social Landscape of Industrial Redevelopment
 
